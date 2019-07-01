@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176216DEA37A381C16C5302B /* Pods_UnitTestPracticeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82D187CC6D34E183FC13266 /* Pods_UnitTestPracticeAppTests.framework */; };
+		3E449D9C0F5BCB8A51891C98 /* Pods_UnitTestPracticeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB296868E7D267E6B970F4B /* Pods_UnitTestPracticeApp.framework */; };
 		7CEA774222C99ECF0079B0D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA774122C99ECF0079B0D7 /* AppDelegate.swift */; };
 		7CEA774422C99ECF0079B0D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA774322C99ECF0079B0D7 /* ViewController.swift */; };
 		7CEA774722C99ECF0079B0D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA774522C99ECF0079B0D7 /* Main.storyboard */; };
@@ -28,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AB296868E7D267E6B970F4B /* Pods_UnitTestPracticeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestPracticeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEA773E22C99ECF0079B0D7 /* UnitTestPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEA774122C99ECF0079B0D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CEA774322C99ECF0079B0D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +43,11 @@
 		7CEA775922C99ED10079B0D7 /* CarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTest.swift; sourceTree = "<group>"; };
 		7CEA775B22C99ED10079B0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CEA776422CA18820079B0D7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		911BDAB82AB567DEFD318C71 /* Pods-UnitTestPracticeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestPracticeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestPracticeApp/Pods-UnitTestPracticeApp.release.xcconfig"; sourceTree = "<group>"; };
+		A82D187CC6D34E183FC13266 /* Pods_UnitTestPracticeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestPracticeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDC20F0B6C631D9228A08AE /* Pods-UnitTestPracticeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestPracticeAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestPracticeAppTests/Pods-UnitTestPracticeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB8FC90173C7AADBF23BF346 /* Pods-UnitTestPracticeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestPracticeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestPracticeApp/Pods-UnitTestPracticeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF7B86CB77DA3634AE6853D /* Pods-UnitTestPracticeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestPracticeAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTestPracticeAppTests/Pods-UnitTestPracticeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E449D9C0F5BCB8A51891C98 /* Pods_UnitTestPracticeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176216DEA37A381C16C5302B /* Pods_UnitTestPracticeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30F4334DB7DE57E5167DE5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB296868E7D267E6B970F4B /* Pods_UnitTestPracticeApp.framework */,
+				A82D187CC6D34E183FC13266 /* Pods_UnitTestPracticeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CEA773522C99ECF0079B0D7 = {
 			isa = PBXGroup;
 			children = (
 				7CEA774022C99ECF0079B0D7 /* UnitTestPracticeApp */,
 				7CEA775822C99ED10079B0D7 /* UnitTestPracticeAppTests */,
 				7CEA773F22C99ECF0079B0D7 /* Products */,
+				9A16615B31756273887A9686 /* Pods */,
+				30F4334DB7DE57E5167DE5D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +123,17 @@
 			path = UnitTestPracticeAppTests;
 			sourceTree = "<group>";
 		};
+		9A16615B31756273887A9686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB8FC90173C7AADBF23BF346 /* Pods-UnitTestPracticeApp.debug.xcconfig */,
+				911BDAB82AB567DEFD318C71 /* Pods-UnitTestPracticeApp.release.xcconfig */,
+				EBF7B86CB77DA3634AE6853D /* Pods-UnitTestPracticeAppTests.debug.xcconfig */,
+				ABDC20F0B6C631D9228A08AE /* Pods-UnitTestPracticeAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CEA775E22C99ED10079B0D7 /* Build configuration list for PBXNativeTarget "UnitTestPracticeApp" */;
 			buildPhases = (
+				B5814A50E9F9662D8BFA3440 /* [CP] Check Pods Manifest.lock */,
 				7CEA773A22C99ECF0079B0D7 /* Sources */,
 				7CEA773B22C99ECF0079B0D7 /* Frameworks */,
 				7CEA773C22C99ECF0079B0D7 /* Resources */,
@@ -126,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CEA776122C99ED10079B0D7 /* Build configuration list for PBXNativeTarget "UnitTestPracticeAppTests" */;
 			buildPhases = (
+				D127FF3F311A8A486D426E87 /* [CP] Check Pods Manifest.lock */,
 				7CEA775122C99ED10079B0D7 /* Sources */,
 				7CEA775222C99ED10079B0D7 /* Frameworks */,
 				7CEA775322C99ED10079B0D7 /* Resources */,
+				81A1DA5F93E9BC5C4E7A80C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +232,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81A1DA5F93E9BC5C4E7A80C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnitTestPracticeAppTests/Pods-UnitTestPracticeAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTestPracticeAppTests/Pods-UnitTestPracticeAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5814A50E9F9662D8BFA3440 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitTestPracticeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D127FF3F311A8A486D426E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitTestPracticeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CEA773A22C99ECF0079B0D7 /* Sources */ = {
@@ -366,15 +458,13 @@
 		};
 		7CEA775F22C99ED10079B0D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8FC90173C7AADBF23BF346 /* Pods-UnitTestPracticeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M25WLDE3HH;
 				INFOPLIST_FILE = UnitTestPracticeApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joseph.UnitTestPracticeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -384,15 +474,13 @@
 		};
 		7CEA776022C99ED10079B0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911BDAB82AB567DEFD318C71 /* Pods-UnitTestPracticeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M25WLDE3HH;
 				INFOPLIST_FILE = UnitTestPracticeApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joseph.UnitTestPracticeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -402,17 +490,14 @@
 		};
 		7CEA776222C99ED10079B0D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF7B86CB77DA3634AE6853D /* Pods-UnitTestPracticeAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M25WLDE3HH;
 				INFOPLIST_FILE = UnitTestPracticeAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joseph.UnitTestPracticeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -423,17 +508,14 @@
 		};
 		7CEA776322C99ED10079B0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDC20F0B6C631D9228A08AE /* Pods-UnitTestPracticeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M25WLDE3HH;
 				INFOPLIST_FILE = UnitTestPracticeAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joseph.UnitTestPracticeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
